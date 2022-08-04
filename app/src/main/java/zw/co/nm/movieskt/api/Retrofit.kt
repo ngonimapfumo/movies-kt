@@ -8,7 +8,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.create
 
-class Retrofit {
+object Retrofit {
     private var retrofit: Retrofit? = null;
     private val baseUrl = "https://yts.mx/api/v2/";
 
